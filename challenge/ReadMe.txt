@@ -1,14 +1,11 @@
-# Mini-Twitter
-Backend for a mini messaging service, inspired by Twitter
-
 Mini Twitter REST endpoints.
 
-#### For basic HTTP authentication,
+For basic HTTP authentication,
 Username :  id from people table
 Password :  handle from user table 
 Example : Username :  1  , Password : batman
 
-1. An endpoint to read the message list for the current user (as identified by their HTTP Basic authentication credentials). Include messages they have sent and messages sent by users they follow. Support a ‚Äúsearch=‚Äù parameter that can be used to further filter messages based on keyword.
+1. An endpoint to read the message list for the current user (as identified by their HTTP Basic authentication credentials). Include messages they have sent and messages sent by users they follow. Support a ìsearch=î parameter that can be used to further filter messages based on keyword.
 
 Request Method : GET 
 http://localhost:8080/messages
@@ -40,5 +37,4 @@ Request Body: The handle of the person you want to unfollow
 Request Method : POST
 http://localhost:8080/gethops
 Request Body: The handle of the person from whom you want shortest distance
-
 
