@@ -3,7 +3,7 @@ Backend for a mini messaging service, inspired by Twitter
 
 Mini Twitter REST endpoints.
 
-#### For basic HTTP authentication
+#### For HTTP basic authentication
 Username :  id from people table
 
 Password :  handle from user table 
