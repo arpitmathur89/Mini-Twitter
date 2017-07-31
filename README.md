@@ -6,7 +6,7 @@ Mini Twitter REST endpoints.
 #### For HTTP basic authentication
 Username :  id from people table
 
-Password :  handle from user table 
+Password :  handle from people table 
 
 Example : Username :  1  , Password : batman
 
